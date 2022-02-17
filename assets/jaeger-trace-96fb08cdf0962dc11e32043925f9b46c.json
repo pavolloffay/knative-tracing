@@ -1,0 +1,1912 @@
+{
+    "data": [
+        {
+            "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+            "spans": [
+                {
+                    "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                    "spanID": "4af878768c3cdab9",
+                    "operationName": "throttler_try",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                            "spanID": "49fa362b340a7b0f"
+                        }
+                    ],
+                    "startTime": 1645102300026279,
+                    "duration": 16,
+                    "tags": [
+                        {
+                            "key": "component",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "zipkin"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                    "spanID": "4ef080a3ed055763",
+                    "operationName": "throttler_try",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                            "spanID": "4df23e5895d3f7b8"
+                        }
+                    ],
+                    "startTime": 1645102300030967,
+                    "duration": 12,
+                    "tags": [
+                        {
+                            "key": "component",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "zipkin"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                    "spanID": "4cf4fc0c3da1980e",
+                    "operationName": "/",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                            "spanID": "4bf6bac1e46e3964"
+                        }
+                    ],
+                    "startTime": 1645102300026364,
+                    "duration": 4948,
+                    "tags": [
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.path",
+                            "type": "string",
+                            "value": "/"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "string",
+                            "value": "200"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://10.244.0.115:8012/"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36"
+                        },
+                        {
+                            "key": "opencensus.status_description",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "zipkin"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                    "spanID": "4bf6bac1e46e3964",
+                    "operationName": "activator_proxy",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                            "spanID": "49fa362b340a7b0f"
+                        }
+                    ],
+                    "startTime": 1645102300026304,
+                    "duration": 5031,
+                    "tags": [
+                        {
+                            "key": "component",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "zipkin"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                    "spanID": "50ec043a9e6a15b8",
+                    "operationName": "/",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                            "spanID": "4feec2ee4538b60d"
+                        }
+                    ],
+                    "startTime": 1645102300031103,
+                    "duration": 2379,
+                    "tags": [
+                        {
+                            "key": "http.status_code",
+                            "type": "string",
+                            "value": "200"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://10.244.0.116:8012/"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "Go-http-client/1.1"
+                        },
+                        {
+                            "key": "opencensus.status_description",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "POST"
+                        },
+                        {
+                            "key": "http.path",
+                            "type": "string",
+                            "value": "/"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "zipkin"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                    "spanID": "4feec2ee4538b60d",
+                    "operationName": "activator_proxy",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                            "spanID": "4df23e5895d3f7b8"
+                        }
+                    ],
+                    "startTime": 1645102300031008,
+                    "duration": 2497,
+                    "tags": [
+                        {
+                            "key": "component",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "zipkin"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                    "spanID": "49fa362b340a7b0f",
+                    "operationName": "/",
+                    "references": [],
+                    "startTime": 1645102300026236,
+                    "duration": 5247,
+                    "tags": [
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "first.default.127.0.0.1.sslip.io"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.path",
+                            "type": "string",
+                            "value": "/"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "string",
+                            "value": "200"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "/"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36"
+                        },
+                        {
+                            "key": "opencensus.status_description",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "zipkin"
+                        }
+                    ],
+                    "logs": [
+                        {
+                            "timestamp": 1645102300031328,
+                            "fields": [
+                                {
+                                    "key": "event",
+                                    "type": "string",
+                                    "value": "Sent 49 bytes"
+                                }
+                            ]
+                        }
+                    ],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                    "spanID": "4df23e5895d3f7b8",
+                    "operationName": "/",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                            "spanID": "29c4507d292a78be"
+                        }
+                    ],
+                    "startTime": 1645102300030927,
+                    "duration": 2600,
+                    "tags": [
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "second.default.svc.cluster.local"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "POST"
+                        },
+                        {
+                            "key": "http.path",
+                            "type": "string",
+                            "value": "/"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "string",
+                            "value": "200"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "/"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "Go-http-client/1.1"
+                        },
+                        {
+                            "key": "opencensus.status_description",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "zipkin"
+                        }
+                    ],
+                    "logs": [
+                        {
+                            "timestamp": 1645102300030945,
+                            "fields": [
+                                {
+                                    "key": "event",
+                                    "type": "string",
+                                    "value": "Received 58 bytes"
+                                }
+                            ]
+                        }
+                    ],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                    "spanID": "bf8a566b370c8c15",
+                    "operationName": "/",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                            "spanID": "9904444f0e41482c"
+                        }
+                    ],
+                    "startTime": 1645102300028743,
+                    "duration": 140,
+                    "tags": [
+                        {
+                            "key": "http.status_code",
+                            "type": "string",
+                            "value": "202"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "/"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "Go-http-client/1.1"
+                        },
+                        {
+                            "key": "opencensus.status_description",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "knative-tracing-kne-trigger-kn-channel.default.svc.cluster.local"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "POST"
+                        },
+                        {
+                            "key": "http.path",
+                            "type": "string",
+                            "value": "/"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "zipkin"
+                        }
+                    ],
+                    "logs": [
+                        {
+                            "timestamp": 1645102300028766,
+                            "fields": [
+                                {
+                                    "key": "event",
+                                    "type": "string",
+                                    "value": "Received 58 bytes"
+                                }
+                            ]
+                        }
+                    ],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                    "spanID": "c9c894dbe1fabc65",
+                    "operationName": "/triggers/default/first-to-second/dda8bc61-65f5-4467-bde7-62f31df5659a",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                            "spanID": "c4a975a38c83a4bd"
+                        }
+                    ],
+                    "startTime": 1645102300029182,
+                    "duration": 5469,
+                    "tags": [
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://broker-filter.knative-eventing.svc.cluster.local/triggers/default/first-to-second/dda8bc61-65f5-4467-bde7-62f31df5659a"
+                        },
+                        {
+                            "key": "opencensus.status_description",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "broker-filter.knative-eventing.svc.cluster.local"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "POST"
+                        },
+                        {
+                            "key": "http.path",
+                            "type": "string",
+                            "value": "/triggers/default/first-to-second/dda8bc61-65f5-4467-bde7-62f31df5659a"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "string",
+                            "value": "200"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "zipkin"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                    "spanID": "c4a975a38c83a4bd",
+                    "operationName": "knative.dev",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                            "spanID": "bf8a566b370c8c15"
+                        }
+                    ],
+                    "startTime": 1645102300028990,
+                    "duration": 5690,
+                    "tags": [
+                        {
+                            "key": "cloudevents.id",
+                            "type": "string",
+                            "value": "d58acee6-31de-4c83-8949-238d82517f0f"
+                        },
+                        {
+                            "key": "cloudevents.source",
+                            "type": "string",
+                            "value": "github/com/pavolloffay"
+                        },
+                        {
+                            "key": "cloudevents.specversion",
+                            "type": "string",
+                            "value": "1.0"
+                        },
+                        {
+                            "key": "cloudevents.type",
+                            "type": "string",
+                            "value": "httpbody"
+                        },
+                        {
+                            "key": "messaging.destination",
+                            "type": "string",
+                            "value": "http://broker-filter.knative-eventing.svc.cluster.local/triggers/default/first-to-second/dda8bc61-65f5-4467-bde7-62f31df5659a"
+                        },
+                        {
+                            "key": "messaging.message_id",
+                            "type": "string",
+                            "value": "d58acee6-31de-4c83-8949-238d82517f0f"
+                        },
+                        {
+                            "key": "messaging.protocol",
+                            "type": "string",
+                            "value": "HTTP"
+                        },
+                        {
+                            "key": "messaging.system",
+                            "type": "string",
+                            "value": "knative"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "zipkin"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                    "spanID": "feeeb31058df3886",
+                    "operationName": "queue_proxy",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                            "spanID": "7be909478a3b695b"
+                        }
+                    ],
+                    "startTime": 1645102300031671,
+                    "duration": 1168,
+                    "tags": [
+                        {
+                            "key": "component",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "zipkin"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p3",
+                    "warnings": null
+                },
+                {
+                    "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                    "spanID": "7be909478a3b695b",
+                    "operationName": "/",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                            "spanID": "50ec043a9e6a15b8"
+                        }
+                    ],
+                    "startTime": 1645102300031485,
+                    "duration": 1437,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "POST"
+                        },
+                        {
+                            "key": "http.path",
+                            "type": "string",
+                            "value": "/"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "string",
+                            "value": "200"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "/"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "Go-http-client/1.1"
+                        },
+                        {
+                            "key": "opencensus.status_description",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "10.244.0.116:8012"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "zipkin"
+                        }
+                    ],
+                    "logs": [
+                        {
+                            "timestamp": 1645102300031509,
+                            "fields": [
+                                {
+                                    "key": "event",
+                                    "type": "string",
+                                    "value": "Received 58 bytes"
+                                }
+                            ]
+                        }
+                    ],
+                    "processID": "p3",
+                    "warnings": null
+                },
+                {
+                    "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                    "spanID": "81f45dda258308b1",
+                    "operationName": "/",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                            "spanID": "feeeb31058df3886"
+                        }
+                    ],
+                    "startTime": 1645102300031770,
+                    "duration": 1009,
+                    "tags": [
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://127.0.0.1:8080/"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "Go-http-client/1.1"
+                        },
+                        {
+                            "key": "opencensus.status_description",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "second.default.svc.cluster.local"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "POST"
+                        },
+                        {
+                            "key": "http.path",
+                            "type": "string",
+                            "value": "/"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "string",
+                            "value": "200"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "zipkin"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p3",
+                    "warnings": null
+                },
+                {
+                    "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                    "spanID": "eb71d394b38d03ca",
+                    "operationName": "/default/knative-tracing",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                            "spanID": "08a282f4b1d1babc"
+                        }
+                    ],
+                    "startTime": 1645102300028152,
+                    "duration": 1268,
+                    "tags": [
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "broker-ingress.knative-eventing.svc.cluster.local"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "POST"
+                        },
+                        {
+                            "key": "http.path",
+                            "type": "string",
+                            "value": "/default/knative-tracing"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "string",
+                            "value": "202"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "/default/knative-tracing"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "Go-http-client/1.1"
+                        },
+                        {
+                            "key": "opencensus.status_description",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "zipkin"
+                        }
+                    ],
+                    "logs": [
+                        {
+                            "timestamp": 1645102300028178,
+                            "fields": [
+                                {
+                                    "key": "event",
+                                    "type": "string",
+                                    "value": "Received 58 bytes"
+                                }
+                            ]
+                        }
+                    ],
+                    "processID": "p4",
+                    "warnings": null
+                },
+                {
+                    "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                    "spanID": "9904444f0e41482c",
+                    "operationName": "",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                            "spanID": "42bb0bf260e7257b"
+                        }
+                    ],
+                    "startTime": 1645102300028443,
+                    "duration": 774,
+                    "tags": [
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "knative-tracing-kne-trigger-kn-channel.default.svc.cluster.local"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "POST"
+                        },
+                        {
+                            "key": "http.path",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "string",
+                            "value": "202"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://knative-tracing-kne-trigger-kn-channel.default.svc.cluster.local"
+                        },
+                        {
+                            "key": "opencensus.status_description",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "zipkin"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p4",
+                    "warnings": null
+                },
+                {
+                    "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                    "spanID": "42bb0bf260e7257b",
+                    "operationName": "broker:knative-tracing.default",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                            "spanID": "eb71d394b38d03ca"
+                        }
+                    ],
+                    "startTime": 1645102300028295,
+                    "duration": 999,
+                    "tags": [
+                        {
+                            "key": "cloudevents.id",
+                            "type": "string",
+                            "value": "d58acee6-31de-4c83-8949-238d82517f0f"
+                        },
+                        {
+                            "key": "cloudevents.datacontenttype",
+                            "type": "string",
+                            "value": "text/plain"
+                        },
+                        {
+                            "key": "cloudevents.source",
+                            "type": "string",
+                            "value": "github/com/pavolloffay"
+                        },
+                        {
+                            "key": "cloudevents.specversion",
+                            "type": "string",
+                            "value": "1.0"
+                        },
+                        {
+                            "key": "cloudevents.type",
+                            "type": "string",
+                            "value": "httpbody"
+                        },
+                        {
+                            "key": "messaging.destination",
+                            "type": "string",
+                            "value": "broker:knative-tracing.default"
+                        },
+                        {
+                            "key": "messaging.message_id",
+                            "type": "string",
+                            "value": "d58acee6-31de-4c83-8949-238d82517f0f"
+                        },
+                        {
+                            "key": "messaging.protocol",
+                            "type": "string",
+                            "value": "HTTP"
+                        },
+                        {
+                            "key": "messaging.system",
+                            "type": "string",
+                            "value": "knative"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "zipkin"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p4",
+                    "warnings": null
+                },
+                {
+                    "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                    "spanID": "08a282f4b1d1babc",
+                    "flags": 1,
+                    "operationName": "HTTP POST",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                            "spanID": "b06ec08e4279fab4"
+                        }
+                    ],
+                    "startTime": 1645102300027789,
+                    "duration": 2003,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "POST"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://broker-ingress.knative-eventing.svc.cluster.local/default/knative-tracing"
+                        },
+                        {
+                            "key": "http.request_content_length",
+                            "type": "int64",
+                            "value": 58
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 202
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "semver:0.29.0"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p5",
+                    "warnings": null
+                },
+                {
+                    "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                    "spanID": "675a4938984a5d6f",
+                    "flags": 1,
+                    "operationName": "user_handler: /",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                            "spanID": "9be92f8a82a1f726"
+                        }
+                    ],
+                    "startTime": 1645102300027635,
+                    "duration": 2310,
+                    "tags": [
+                        {
+                            "key": "request-body",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "event-id",
+                            "type": "string",
+                            "value": "d58acee6-31de-4c83-8949-238d82517f0f"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "first-in-app-tracer"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p5",
+                    "warnings": null
+                },
+                {
+                    "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                    "spanID": "9be92f8a82a1f726",
+                    "flags": 1,
+                    "operationName": "/",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                            "spanID": "93f33417f30303d0"
+                        }
+                    ],
+                    "startTime": 1645102300027615,
+                    "duration": 2347,
+                    "tags": [
+                        {
+                            "key": "net.transport",
+                            "type": "string",
+                            "value": "ip_tcp"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 43532
+                        },
+                        {
+                            "key": "net.host.name",
+                            "type": "string",
+                            "value": "first.default.127.0.0.1.sslip.io"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "/"
+                        },
+                        {
+                            "key": "http.client_ip",
+                            "type": "string",
+                            "value": "10.244.0.12"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "first.default.127.0.0.1.sslip.io"
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.wrote_bytes",
+                            "type": "int64",
+                            "value": 49
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "semver:0.29.0"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p5",
+                    "warnings": null
+                },
+                {
+                    "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                    "spanID": "b06ec08e4279fab4",
+                    "flags": 1,
+                    "operationName": "cloudevents.client.httpbody send",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                            "spanID": "675a4938984a5d6f"
+                        }
+                    ],
+                    "startTime": 1645102300027718,
+                    "duration": 2112,
+                    "tags": [
+                        {
+                            "key": "code.function",
+                            "type": "string",
+                            "value": "RecordSendingEvent"
+                        },
+                        {
+                            "key": "cloudevents.specversion",
+                            "type": "string",
+                            "value": "1.0"
+                        },
+                        {
+                            "key": "cloudevents.id",
+                            "type": "string",
+                            "value": "d58acee6-31de-4c83-8949-238d82517f0f"
+                        },
+                        {
+                            "key": "cloudevents.type",
+                            "type": "string",
+                            "value": "httpbody"
+                        },
+                        {
+                            "key": "cloudevents.source",
+                            "type": "string",
+                            "value": "github/com/pavolloffay"
+                        },
+                        {
+                            "key": "cloudevents.datacontenttype",
+                            "type": "string",
+                            "value": "text/plain"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "github.com/cloudevents/sdk-go/observability/opentelemetry/v2"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "producer"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p5",
+                    "warnings": null
+                },
+                {
+                    "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                    "spanID": "7766ba8a00148156",
+                    "flags": 1,
+                    "operationName": "cloudevents.client.httpbody process",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                            "spanID": "cd2f232b26fc02ba"
+                        }
+                    ],
+                    "startTime": 1645102300032335,
+                    "duration": 146,
+                    "tags": [
+                        {
+                            "key": "code.function",
+                            "type": "string",
+                            "value": "RecordCallingInvoker"
+                        },
+                        {
+                            "key": "cloudevents.specversion",
+                            "type": "string",
+                            "value": "1.0"
+                        },
+                        {
+                            "key": "cloudevents.id",
+                            "type": "string",
+                            "value": "d58acee6-31de-4c83-8949-238d82517f0f"
+                        },
+                        {
+                            "key": "cloudevents.type",
+                            "type": "string",
+                            "value": "httpbody"
+                        },
+                        {
+                            "key": "cloudevents.source",
+                            "type": "string",
+                            "value": "github/com/pavolloffay"
+                        },
+                        {
+                            "key": "cloudevents.datacontenttype",
+                            "type": "string",
+                            "value": "text/plain"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "github.com/cloudevents/sdk-go/observability/opentelemetry/v2"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "consumer"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p6",
+                    "warnings": null
+                },
+                {
+                    "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                    "spanID": "72039592a655e3c2",
+                    "flags": 1,
+                    "operationName": "user_function: receiveEvent",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                            "spanID": "7766ba8a00148156"
+                        }
+                    ],
+                    "startTime": 1645102300032359,
+                    "duration": 96,
+                    "tags": [
+                        {
+                            "key": "event.data.msg",
+                            "type": "string",
+                            "value": "hello from first, traceid=96fb08cdf0962dc11e32043925f9b46c"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "second-in-app-tracer"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p6",
+                    "warnings": null
+                },
+                {
+                    "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                    "spanID": "cd2f232b26fc02ba",
+                    "flags": 1,
+                    "operationName": "cloudevents.http.receiver",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                            "spanID": "81f45dda258308b1"
+                        }
+                    ],
+                    "startTime": 1645102300032134,
+                    "duration": 414,
+                    "tags": [
+                        {
+                            "key": "net.transport",
+                            "type": "string",
+                            "value": "ip_tcp"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 36252
+                        },
+                        {
+                            "key": "net.host.name",
+                            "type": "string",
+                            "value": "second.default.svc.cluster.local"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "POST"
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "cloudevents.http.receiver"
+                        },
+                        {
+                            "key": "http.client_ip",
+                            "type": "string",
+                            "value": "10.244.0.12"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "Go-http-client/1.1"
+                        },
+                        {
+                            "key": "http.request_content_length",
+                            "type": "int64",
+                            "value": 58
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "second.default.svc.cluster.local"
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.read_bytes",
+                            "type": "int64",
+                            "value": 58
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "semver:0.29.0"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p6",
+                    "warnings": null
+                },
+                {
+                    "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                    "spanID": "f4bb6853dde3d345",
+                    "operationName": "queue_proxy",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                            "spanID": "55849c8fc7c3a4bb"
+                        }
+                    ],
+                    "startTime": 1645102300026896,
+                    "duration": 3766,
+                    "tags": [
+                        {
+                            "key": "component",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "zipkin"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p7",
+                    "warnings": null
+                },
+                {
+                    "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                    "spanID": "55849c8fc7c3a4bb",
+                    "operationName": "/",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                            "spanID": "4cf4fc0c3da1980e"
+                        }
+                    ],
+                    "startTime": 1645102300026808,
+                    "duration": 3942,
+                    "tags": [
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "10.244.0.115:8012"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.path",
+                            "type": "string",
+                            "value": "/"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "string",
+                            "value": "200"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "/"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36"
+                        },
+                        {
+                            "key": "opencensus.status_description",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "zipkin"
+                        }
+                    ],
+                    "logs": [
+                        {
+                            "timestamp": 1645102300030618,
+                            "fields": [
+                                {
+                                    "key": "event",
+                                    "type": "string",
+                                    "value": "Sent 49 bytes"
+                                }
+                            ]
+                        }
+                    ],
+                    "processID": "p7",
+                    "warnings": null
+                },
+                {
+                    "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                    "spanID": "93f33417f30303d0",
+                    "operationName": "/",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                            "spanID": "f4bb6853dde3d345"
+                        }
+                    ],
+                    "startTime": 1645102300026964,
+                    "duration": 3624,
+                    "tags": [
+                        {
+                            "key": "http.path",
+                            "type": "string",
+                            "value": "/"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "string",
+                            "value": "200"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://127.0.0.1:8090/"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36"
+                        },
+                        {
+                            "key": "opencensus.status_description",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "first.default.127.0.0.1.sslip.io"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "zipkin"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p7",
+                    "warnings": null
+                },
+                {
+                    "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                    "spanID": "c87fd00d01c0b874",
+                    "operationName": "trigger:first-to-second.default",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                            "spanID": "673b509ed855f92a"
+                        }
+                    ],
+                    "startTime": 1645102300029747,
+                    "duration": 4577,
+                    "tags": [
+                        {
+                            "key": "cloudevents.specversion",
+                            "type": "string",
+                            "value": "1.0"
+                        },
+                        {
+                            "key": "messaging.destination",
+                            "type": "string",
+                            "value": "trigger:first-to-second.default"
+                        },
+                        {
+                            "key": "messaging.message_id",
+                            "type": "string",
+                            "value": "d58acee6-31de-4c83-8949-238d82517f0f"
+                        },
+                        {
+                            "key": "messaging.protocol",
+                            "type": "string",
+                            "value": "HTTP"
+                        },
+                        {
+                            "key": "cloudevents.datacontenttype",
+                            "type": "string",
+                            "value": "text/plain"
+                        },
+                        {
+                            "key": "cloudevents.source",
+                            "type": "string",
+                            "value": "github/com/pavolloffay"
+                        },
+                        {
+                            "key": "cloudevents.type",
+                            "type": "string",
+                            "value": "httpbody"
+                        },
+                        {
+                            "key": "messaging.system",
+                            "type": "string",
+                            "value": "knative"
+                        },
+                        {
+                            "key": "cloudevents.id",
+                            "type": "string",
+                            "value": "d58acee6-31de-4c83-8949-238d82517f0f"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "zipkin"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p8",
+                    "warnings": null
+                },
+                {
+                    "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                    "spanID": "29c4507d292a78be",
+                    "operationName": "",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                            "spanID": "c87fd00d01c0b874"
+                        }
+                    ],
+                    "startTime": 1645102300030006,
+                    "duration": 4263,
+                    "tags": [
+                        {
+                            "key": "http.status_code",
+                            "type": "string",
+                            "value": "200"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://second.default.svc.cluster.local"
+                        },
+                        {
+                            "key": "opencensus.status_description",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "second.default.svc.cluster.local"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "POST"
+                        },
+                        {
+                            "key": "http.path",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "zipkin"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p8",
+                    "warnings": null
+                },
+                {
+                    "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                    "spanID": "673b509ed855f92a",
+                    "operationName": "/triggers/default/first-to-second/dda8bc61-65f5-4467-bde7-62f31df5659a",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "96fb08cdf0962dc11e32043925f9b46c",
+                            "spanID": "c9c894dbe1fabc65"
+                        }
+                    ],
+                    "startTime": 1645102300029613,
+                    "duration": 4770,
+                    "tags": [
+                        {
+                            "key": "http.status_code",
+                            "type": "string",
+                            "value": "200"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "/triggers/default/first-to-second/dda8bc61-65f5-4467-bde7-62f31df5659a"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "Go-http-client/1.1"
+                        },
+                        {
+                            "key": "opencensus.status_description",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "broker-filter.knative-eventing.svc.cluster.local"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "POST"
+                        },
+                        {
+                            "key": "http.path",
+                            "type": "string",
+                            "value": "/triggers/default/first-to-second/dda8bc61-65f5-4467-bde7-62f31df5659a"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "zipkin"
+                        }
+                    ],
+                    "logs": [
+                        {
+                            "timestamp": 1645102300029635,
+                            "fields": [
+                                {
+                                    "key": "event",
+                                    "type": "string",
+                                    "value": "Received 58 bytes"
+                                }
+                            ]
+                        }
+                    ],
+                    "processID": "p8",
+                    "warnings": null
+                }
+            ],
+            "processes": {
+                "p1": {
+                    "serviceName": "activator-service",
+                    "tags": [
+                        {
+                            "key": "ip",
+                            "type": "string",
+                            "value": "10.244.0.5"
+                        }
+                    ]
+                },
+                "p2": {
+                    "serviceName": "imc-dispatcher",
+                    "tags": [
+                        {
+                            "key": "ip",
+                            "type": "string",
+                            "value": "10.96.80.60"
+                        }
+                    ]
+                },
+                "p3": {
+                    "serviceName": "second-1-deployment-766b9cfb97-xjtxb",
+                    "tags": [
+                        {
+                            "key": "ip",
+                            "type": "string",
+                            "value": "10.244.0.116"
+                        }
+                    ]
+                },
+                "p4": {
+                    "serviceName": "broker-ingress.knative-eventing",
+                    "tags": [
+                        {
+                            "key": "ip",
+                            "type": "string",
+                            "value": "10.96.13.198"
+                        }
+                    ]
+                },
+                "p5": {
+                    "serviceName": "first",
+                    "tags": []
+                },
+                "p6": {
+                    "serviceName": "second",
+                    "tags": []
+                },
+                "p7": {
+                    "serviceName": "first-1-deployment-56b9b699f8-8zvxx",
+                    "tags": [
+                        {
+                            "key": "ip",
+                            "type": "string",
+                            "value": "10.244.0.115"
+                        }
+                    ]
+                },
+                "p8": {
+                    "serviceName": "broker-filter.knative-eventing",
+                    "tags": [
+                        {
+                            "key": "ip",
+                            "type": "string",
+                            "value": "10.96.236.55"
+                        }
+                    ]
+                }
+            },
+            "warnings": null
+        }
+    ],
+    "total": 0,
+    "limit": 0,
+    "offset": 0,
+    "errors": null
+}
