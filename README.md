@@ -10,7 +10,7 @@ This project implements two services: `first` and `second`. The first service ex
 
 The Knative data-plane (e.g. activator, controller, queue-proxy) are instrumented with distributed tracing API. These components create tracing data for every transaction (request, event). The trace-context (trace IDs) are not added to the event metadata (e.g. as extension) but are propagated in e.g. in HTTP headers.
 
-The user function/service is however responsible to propagate the headers from in-bound to out-bound event/request. This might not always apply all scenarios (e.g. if events are routed only by control plane).
+The user function/service is however responsible to propagate the headers from in-bound to out-bound event/request. Note that this might not always apply all scenarios (e.g. if events are routed only by control plane). The propagation from in-bound to out-bound request can be done by Cloudevent tracing instrumentation or by using OpenTelemetry (e.g. Java agent - see ./java-second).
 
 ### Output
 
