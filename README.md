@@ -49,7 +49,7 @@ The stdout output from the `first` service shows that the incoming request alrea
 2022/02/17 12:53:48
 ```
 
-The stdout from the `second` service shows that the incoming event does not contain trace-context (trace IDs):
+The stdout from the `second` service shows that the incoming event does not contain trace-context (trace IDs). The trace-context is only in the HTTP headers like we saw in the stdout from the `first` service.
 ```bash
 2022/02/17 13:39:36 Event received: Context Attributes,
   specversion: 1.0
